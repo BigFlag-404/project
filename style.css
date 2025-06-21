@@ -1,0 +1,75 @@
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-weight:bold;
+    margin-right: 93px;
+}
+.header {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.flex {
+    display: flex;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-list {
+    display: flex;
+    margin-right: 344px;
+}
+.h {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #ffffff;
+}
+.header-li:not(:last-child) {
+    margin-right: 50px;
+}
+.h:hover{
+    color: #94CFFF;
+    cursor: pointer;
+}
+.header-list2 {
+    display: flex;
+    
+}
+.header-li2:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header {
+    background-image: url(./Rectangle\ 104.png);
+    width: 1440px;
+    height: 150px;
+}
+
+.section1 {
+    background-image: url(./Group\ 48\ 1.jpg);
+    width: 1440px;
+    height: 740px;
+}
+
+.section3 {
+    background-image: url(./Rectangle\ 10.png);
+    width: 1440px;
+    height: 741px;
+}
+
+.footer {
+    background-image: url(./Rectangle\ 12.png);
+    width: 1440px;
+    height: 223px;
+}
+
+.footer-li {
+    color: white;
+}
