@@ -21,14 +21,12 @@
     margin-right: 344px;
 }
 .h {
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-
 color: #ffffff;
 }
 .header-li:not(:last-child) {
@@ -48,28 +46,67 @@ color: #ffffff;
 
 .header {
     background-image: url(./Rectangle\ 104.png);
-    width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 150px;
 }
 
 .section1 {
     background-image: url(./Group\ 48\ 1.jpg);
-    width: 1440px;
+   background-repeat: no-repeat;
+   background-size: cover;
     height: 740px;
+}
+
+.section2 {
+   background-repeat: no-repeat;
+   background-size: cover;
+    
 }
 
 .section3 {
     background-image: url(./Rectangle\ 10.png);
-    width: 1440px;
+   background-repeat: no-repeat;
+   background-size: cover;
     height: 741px;
+}
+
+.section4 {
+
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+.section5 {
+   background-image: url(./Rectangle\ 20.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 704px;
+}
+
+.section6 {
+
+   background-repeat: no-repeat;
+   background-size: cover;
+  
 }
 
 .footer {
     background-image: url(./Rectangle\ 12.png);
-    width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 223px;
 }
 
 .footer-li {
     color: white;
+}
+
+.language-list {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: repeat(2, 240px);
+    grid-auto-rows: 240px;
+    column-gap: 20px;
 }
