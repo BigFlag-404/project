@@ -24,7 +24,7 @@
 }
 .header-list {
     display: flex;
-    margin-right: 344px;
+    margin-right: 212px;
 }
 .h {
 color: #ffffff;
@@ -166,4 +166,50 @@ padding-bottom: 8px;
 }
 .s6-img {
     padding-bottom: 10px;
+}
+
+.s1_text {
+  position: absolute;
+width: 376px;
+height: 381px;
+left: 204px;
+top: 330px;  
+}
+
+.img_list {
+position: absolute;
+width: 50px;
+height: 141px;
+left: 1186px;
+top: 450px;
+}
+
+.button_s1_text {
+font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+
+text-align: justify;
+
+color: #26C7EA;
+}
+
+.language-list-li {
+font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+
+text-align: center;
+
+color: #141414;
+padding-top: 36px;
+padding-bottom: 40px;
+
+}
+
+.s2_li {
 }
