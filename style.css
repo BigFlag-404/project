@@ -5,23 +5,21 @@
 }
 .header {
     display: flex;
-    padding-top: 25px;
     padding-bottom: 25px;
 }
 .flex {
     display: flex;
 }
 .logoweb {
-    color:#2196F3;
+    height: 72px;
+    width: 186px;
 }
 .container {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 }
-.logoweb2 {
-    color:black;
-}
+
 .header-list {
     display: flex;
     margin-right: 212px;
@@ -195,6 +193,22 @@ line-height: 30px;
 text-align: justify;
 
 color: #26C7EA;
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 80px;
+left: 1px;
+top: 270px;
+
+text-align: center;
+
+background: #0B0E66;
+border: 3px solid #26C7EA;
+border-radius: 45px 0px;
+
 }
 
 .language-list-li {
@@ -213,7 +227,7 @@ padding-bottom: 40px;
 }
 
 .aaa {
-    padding-left: 80px;
+    padding-left: 180px;
     border-left: 1px solid #ffffff;
     margin-left: 80px;
     width: 689px;
@@ -234,7 +248,7 @@ padding-bottom: 40px;
 
 .overlay {
     background-color: #2b4a61c7;
-    
+    padding-top:50px;
     bottom: 0;
     width: 100%;
     height: 223px;
@@ -247,9 +261,93 @@ padding-bottom: 40px;
 
 .overlay-header {
     background-color: #2b4a61c7;
-
+padding-top: 51px;
     bottom: 0;
     width: 100%;
     height: 150px;
     left: 0;
+}
+
+
+.header-li2 {
+
+box-sizing: border-box;
+
+background: #0B0E66;
+border: 2px solid #26C7EA;
+border-radius: 35px 0px;
+
+position: absolute;
+width: 68px;
+left: 1200px;
+
+font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: justify;
+
+color: #26C6EA;
+
+box-sizing: border-box;
+
+position: absolute;
+width: 141px;
+height: 41.69px;
+left: 1095px;
+top: 54px;
+
+background: #0B0E66;
+border: 2px solid #26C7EA;
+border-radius: 35px 0px;
+
+position: absolute;
+width: 65px;
+height: 25px;
+left: 1133px;
+top: 63px;
+
+font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+text-align: justify;
+
+color: #26C6EA;
+
+
+}
+
+.s3_button {
+box-sizing: border-box;
+
+background: #0B0E66;
+border: 3px solid #26C7EA;
+border-radius: 45px 0px;
+
+position: absolute;
+width: 260px;
+height: 80px;
+left: 840px;
+top: 1525px;
+
+font-size: 24px;
+line-height: 30px;
+
+text-align: justify;
+text-align: center;
+
+color: #26C7EA;
+}
+
+.logoweb-footer {
+position: absolute;
+  top: 3350px;       
+  left: 170px;     
+  height: auto;
+  width: 200px; 
+
 }
