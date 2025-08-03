@@ -1,45 +1,68 @@
+
 .raleway {
     font-family: "Raleway", sans-serif;
     font-weight:bold;
     margin-right: 93px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-right: 93px;
 }
 .header {
     display: flex;
     padding-bottom: 25px;
+  display: flex;
+  padding-bottom: 25px;
 }
 .flex {
     display: flex;
+  display: flex;
 }
 .logoweb {
     height: 72px;
     width: 186px;
+  height: 72px;
+  width: 186px;
 }
 .container {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-list {
     display: flex;
     margin-right: 212px;
+  display: flex;
+  margin-right: 212px;
 }
 .h {
 color: #ffffff;
+  color: #ffffff;
 }
 .header-li:not(:last-child) {
     margin-right: 50px;
+  margin-right: 50px;
 }
 .h:hover{
     color: #2196F3;
     cursor: pointer;
 }
+
+.h:hover {
+  color: #2196f3;
+  cursor: pointer;
+}
 .header-list2 {
     display: flex;
     
+  display: flex;
 }
 .header-li2:not(:last-child) {
     margin-right: 50px;
+  margin-right: 50px;
 }
 
 .header {
@@ -47,6 +70,10 @@ color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
+  background-image: url(./Rectangle\ 104.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
 }
 
 .section1 {
@@ -54,12 +81,19 @@ color: #ffffff;
    background-repeat: no-repeat;
    background-size: cover;
     height: 740px;
+  background-image: url(./Group\ 48\ 1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 740px;
 }
 
 .section2 {
    background-repeat: no-repeat;
    background-size: cover;
      text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 .section3 {
@@ -67,6 +101,11 @@ color: #ffffff;
    background-repeat: no-repeat;
    background-size: cover;
     height: 741px;
+  background-image: url(./Rectangle\ 10.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 330px 0;
+  text-align: center;
 }
 
 .section4 {
@@ -74,6 +113,9 @@ color: #ffffff;
    background-repeat: no-repeat;
    background-size: cover;
      text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 .section5 {
@@ -81,6 +123,10 @@ color: #ffffff;
    background-repeat: no-repeat;
    background-size: cover;
    height: 704px;
+  background-image: url(./Rectangle\ 20.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 704px;
 }
 
 .section6 {
@@ -88,6 +134,9 @@ color: #ffffff;
    background-repeat: no-repeat;
    background-size: cover;
    text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 
@@ -96,10 +145,15 @@ color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
     height: 223px;
+  background-image: url(./Rectangle\ 12.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 223px;
 }
 
 .footer-li {
     color: white;
+  color: white;
 }
 
 .language-list {
@@ -111,11 +165,21 @@ color: #ffffff;
     padding: 12px;
     justify-content: center;
     text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  grid-template-rows: repeat(1, 240px);
+  grid-auto-rows: 120px;
+  column-gap: 20px;
+  padding: 12px;
+  justify-content: center;
+  text-align: center;
 }
 
 .language-list-li {
     box-sizing: border-box;
     background: #ffffff;
+  box-sizing: border-box;
+  background: #ffffff;
   background-color: rgba(255, 255, 255, 0.697);
 }
 
@@ -123,48 +187,66 @@ color: #ffffff;
     text-align: center;
     padding-top: 17px;
     padding-bottom: 33px;
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 33px;
 }
 
 .s2-h2-n1 {
     padding-top: 75px ;
+  padding-top: 75px;
 }
 .s2-h2-n2 {
     padding-top: 4px;
     padding-bottom: 16px;
+  padding-top: 4px;
+  padding-bottom: 16px;
 }
 .s2-h3 {
     padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 .s2-img {
     padding-bottom: 14px;
+  padding-bottom: 14px;
 }
 
 .s4-h2-n1 {
 padding-top: 71px;
+  padding-top: 71px;
 }
 .s4-h2-n2 {
  padding-top: 4px;
     padding-bottom: 16px;
+  padding-top: 4px;
+  padding-bottom: 16px;
 }
 .s4-h3 {
 padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 .s4-img {
  padding-bottom: 51px;
+  padding-bottom: 51px;
 }
 
 .s6-h2-n1 {
 padding-top: 34px;
+  padding-top: 34px;
 }
 .s6-h2-n2 {
 padding-top: 4px;
     padding-bottom: 16px;
+  padding-top: 4px;
+  padding-bottom: 16px;
 }
 .s6-h3 {
 padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 .s6-img {
     padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .s1_text {
@@ -173,6 +255,10 @@ width: 376px;
 height: 381px;
 left: 204px;
 top: 330px;  
+  width: 376px;
+  height: 381px;
+  left: 204px;
+  top: 330px;
 }
 
 .img_list {
@@ -181,6 +267,11 @@ width: 50px;
 height: 141px;
 left: 1186px;
 top: 450px;
+  position: absolute;
+  width: 50px;
+  height: 141px;
+  left: 1186px;
+  top: 450px;
 }
 
 .button_s1_text {
@@ -193,22 +284,39 @@ line-height: 30px;
 text-align: justify;
 
 color: #26C7EA;
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
 
+  text-align: justify;
 
 box-sizing: border-box;
+  color: #26c7ea;
 
 position: absolute;
 width: 260px;
 height: 80px;
 left: 1px;
 top: 270px;
+  box-sizing: border-box;
 
 text-align: center;
+  position: absolute;
+  width: 260px;
+  height: 80px;
+  left: 1px;
+  top: 270px;
 
 background: #0B0E66;
 border: 3px solid #26C7EA;
 border-radius: 45px 0px;
+  text-align: center;
 
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
 }
 
 .language-list-li {
@@ -219,11 +327,20 @@ font-size: 24px;
 line-height: 24px;
 
 text-align: center;
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
 
 color: #141414;
 padding-top: 36px;
 padding-bottom: 40px;
+  text-align: center;
 
+  color: #141414;
+  padding-top: 36px;
+  padding-bottom: 40px;
 }
 
 .aaa {
@@ -231,6 +348,10 @@ padding-bottom: 40px;
     border-left: 1px solid #ffffff;
     margin-left: 80px;
     width: 689px;
+  padding-left: 180px;
+  border-left: 1px solid #ffffff;
+  margin-left: 80px;
+  width: 689px;
 }
 
 .a3 {
@@ -240,10 +361,19 @@ padding-bottom: 40px;
     font-size: 14px;
     line-height: 17px;
     text-align: justify;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
 
     color: #ffffff;
     margin-top: 37px;
     text-align: center;
+  color: #ffffff;
+  margin-top: 37px;
+  text-align: center;
 }
 
 .overlay {
@@ -253,10 +383,17 @@ padding-bottom: 40px;
     width: 100%;
     height: 223px;
     left: 0;
+  background-color: #2b4a61c7;
+  padding-top: 50px;
+  bottom: 0;
+  width: 100%;
+  height: 223px;
+  left: 0;
 }
 
 .ы {
     color: #ffffff;
+  color: #ffffff;
 }
 
 .overlay-header {
@@ -266,10 +403,19 @@ padding-top: 51px;
     width: 100%;
     height: 150px;
     left: 0;
+  background-color: #2b4a61c7;
+  padding-top: 51px;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  left: 0;
 }
 
 
 .header-li2 {
+  background: #0b0e66;
+  border: 2px solid #26c7ea;
+  border-radius: 35px 0px;
 
 box-sizing: border-box;
 
@@ -317,30 +463,50 @@ line-height: 25px;
 text-align: justify;
 
 color: #26C6EA;
+  font-family: "HeadlandOne";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
 
+  color: #26c6ea;
+  padding: 5px 37px;
 
+width: 141px;
+  height: 41.69px;
 }
 
 .s3_button {
 box-sizing: border-box;
+  box-sizing: border-box;
 
 background: #0B0E66;
 border: 3px solid #26C7EA;
 border-radius: 45px 0px;
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
 
 position: absolute;
 width: 260px;
 height: 80px;
 left: 840px;
 top: 1525px;
+  width: 260px;
+  height: 80px;
 
 font-size: 24px;
 line-height: 30px;
+  font-size: 24px;
+  line-height: 30px;
 
 text-align: justify;
 text-align: center;
+  text-align: center;
 
 color: #26C7EA;
+  color: #26c7ea;
 }
 
 .logoweb-footer {
@@ -349,5 +515,9 @@ position: absolute;
   left: 170px;     
   height: auto;
   width: 200px; 
+  width: 200px;
+}
 
+.flex {
+  display: flex;
 }
